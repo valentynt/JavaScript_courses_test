@@ -50,3 +50,11 @@ const options = {
 }
 
 console.log(new Intl.NumberFormat('ua', options).format(27500));
+
+const now = new Date();
+console.log(now.getFullYear());
+
+setTimeout((message1, message2) => {
+    console.log(message1);
+    console.log(message2);
+}, 2000, 'Poof!', 'Yammy)))');
